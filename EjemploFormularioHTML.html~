@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Pancho's Pizza</title>
+     <meta charset="UTF-8" />
+  </head>
+  <body>
+   <h3>Pedidos de Pancho's Pizza</h3>
+   <form> 
+     <fieldset>
+       <legend>La pizzone</legend>
+          <p>Ingredientes</p>
+          <input type="checkbox" name="queso" /> <label>Queso</label><br/>
+          <input type="checkbox" name="pimiento" /> <label>Pimiento</label><br/>
+          <input type="checkbox" name="cebolla" /><label> Cebolla</label> 
+          <p>Tamaño</p>
+          <input type="radio" name="tamano" /><label> Pequeña</label><br/>
+          <input type="radio" name="tamano" /><label> Mediana </label><br/> 
+          <input type="radio" name="tamano" /> <label>Grande</label>
+     </fieldset>
+     <br>
+     <fieldset>
+        <legend>Datos de la entrega</legend>
+          <label>Nombre</label><input type="text" name="nombre"/><br/>
+          <label>Dirección</label><input type="text" name="direccion"/><br/>
+          <label>Teléfono</label><input type="text" name="telefono"/><br/>
+          <label>Instrucciones especiales</label><br/><textarea cols="40" rows="15"></textarea> 
+     </fieldset>
+     <fieldset>
+       <legend>Método del pago</legend>
+          <select>
+             <option>Efectivo</option>
+             <option>VISA</option>
+             <option>Otso</option> 
+          </select>
+      </fieldset>
+     <input type="submit" id="ok" value="Enviar pedido">
+  </form>
+</body>
+</html>

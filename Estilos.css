@@ -1,0 +1,263 @@
+*  {
+
+    font-family: 'Dosis', sans-serif;
+}
+
+footer{
+  height: 100px;
+  background-color: rgb(140, 42, 47);
+}
+
+.pieOrd{
+  width: 85%;
+  height: auto;
+  margin: auto;
+
+  background-color: rgb(140, 42, 47);
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.just{
+  justify-content: space-between;
+  display: flex;
+}
+
+.just i{
+cursor: pointer;
+}
+.pieOrd i{
+font-size: 28px
+}
+
+.barr{
+    width: 100%;
+    height: 10%;
+    align-items:flex-start;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(214, 214, 214);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.titulo{
+    display: flex;
+}
+.barr i{
+    font-size: 60px;
+    cursor: pointer;
+}
+.barr span{
+    font-size: 40px;
+    cursor: pointer;
+}
+.barr h3{
+font-size: 25px;
+color: #800000;
+}
+.agust{
+    justify-content: space-between;
+    width: 98%;
+    height: 10%;
+    margin: auto;
+    position: relative;
+    align-items:flex-start;
+    display: flex;
+}
+
+.ali{
+  justify-content: space-between;
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  position: relative;
+  align-items:center;
+  display: flex;
+}
+
+.chido{
+
+align-items: baseline;
+}
+
+.mamalon{
+  width: 40%;
+  height: 25%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.mamalon label{
+  font-size: 18px;
+}
+
+.mamalon input{
+  width: 300px;
+  height: 18px;
+  border-radius: 5px;
+  color: rgb(73, 80, 125);
+  border-left: 1.5px solid rgb(117, 4, 4);
+  border-right: 1.5px solid rgb(117, 4, 4);
+  border-top: 1.5px solid rgb(117, 4, 4);
+  border-bottom:1.5px solid rgb(117, 4, 4);
+
+}
+.menu{
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+.menu legend{
+    font-size: 25px;
+    font-weight: bold;
+}
+.wrapper1 .button:nth-child(1):hover .icon{
+    background:rgb(61, 7, 7);
+  }
+  .wrapper1 .button:nth-child(2):hover .icon{
+    background:rgb(61, 7, 7);
+  }
+  .wrapper1 .button:nth-child(3):hover .icon{
+    background:rgb(61, 7, 7);
+  }
+  
+  .wrapper1 .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+    }
+    
+    .wrapper1 .button:hover .icon i{
+    color: #fff;
+    }
+    
+    .wrapper1 .button span{
+     font-size: 20px; 
+     font-weight: 500;
+     line-height: 60px;
+     margin-left: 10px;
+     transition: all 0.3s ease-out;
+    }
+  
+      
+  .wrapper1 .button{
+    display: inline-block ;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow:hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  
+  .wrapper1 .button:hover{
+    width: 200px;
+  }
+  
+  .wrapper1 .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  
+  }
+  .bot{
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+
+  }
+  .bot input{
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(65, 175, 4);
+    border-color: #fff;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+.pago{
+  height: 100px;
+  align-items: center;
+  display: flex;
+  border-left: transparent;
+  border-right: transparent;
+  border-top: 2px solid rgb(117, 4, 4);
+  border-bottom: 2px solid rgb(117, 4, 4);
+}
+
+.pago legend{
+  text-align: center;
+    }
+
+  .selector{
+    border-left: transparent;
+    border-right: transparent;
+    border-top: 2px solid rgb(117, 4, 4);
+    border-bottom: transparent;
+  }
+  .selector legend{
+text-align: center;
+  }
+  .selector img{
+    width: 250px;
+    height: 150px;
+    
+  }
+
+  .ord p{
+    color: #800000;
+    font-weight: bold;
+  }
+
+  .ord{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+
+  .cuadro label{
+    color: #800000;
+    font-weight: bold;
+  }
+
+  .cuadro textarea{
+    width: 450px;
+    height: 100px;
+    background: rgb(250, 250, 250);
+  }
+
+  .met{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    color: rgb(73, 80, 125);
+    border-left: 1.5px solid rgb(117, 4, 4);
+    border-right: 1.5px solid rgb(117, 4, 4);
+    border-top: 1.5px solid rgb(117, 4, 4);
+    border-bottom:1.5px solid rgb(117, 4, 4);
+    cursor: pointer;
+  }
+
+
+  .met:hover {
+    box-shadow: inset 0 0 4px rgba(194, 7, 7, 0.26), 0 0 12px rgba(248, 38, 103, 0.26);
+    outline-color: rgba(49, 138, 172, 0);
+  }
